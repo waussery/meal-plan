@@ -4,16 +4,16 @@ const vegetables = ['Butter Thyme Peas', 'Salad', 'Brown Sugar Carrots', 'Roaste
 const carbs = ['Mac and Cheese', 'Mashed Potatoes', 'Rice', 'Sweet Potatoes', 'Roasted Squash'];
 
 //Declare Meals
-var dinnerEntrees = [];
-var dinnerSides = [];
-var dinnerCarbs = [];
+const dinnerEntrees = [];
+const dinnerSides = [];
+const dinnerCarbs = [];
 const dinnerMeal = [dinnerEntrees, dinnerSides, dinnerCarbs];
 
 //Other Variables
 const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
 //Define Meal Picker
-const chooseMeal = (type, choices) => {
+function chooseMeal(type, choices) {
     for (let days = 0; days < 7; days++) {
         let randNum = Math.floor(Math.random() * choices.length);
         type.push(choices[randNum]);
@@ -30,9 +30,10 @@ chooseMeal(dinnerCarbs, carbs);
 //List Meals
 console.log('Meals for the Week');
 console.log("");
-for (i = 0; i < 7; i++) {
+for (let i = 0; i < 7; i++) {
     console.log(weekDays[i] + ':');
     console.log(dinnerEntrees[i])
     console.log(dinnerSides[i])
     console.log(dinnerCarbs[i])
     console.log("");
+}
