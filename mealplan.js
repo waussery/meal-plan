@@ -32,7 +32,8 @@ console.log('Meals for the Week');
 console.log("");
 for (i = 0; i < 7; i++) {
     console.log(weekDays[i] + ':');
-    console.log(dinnerEntrees[i])
-    console.log(dinnerSides[i])
-    console.log(dinnerCarbs[i])
+    console.log(dinnerEntrees[i]);
+    console.log(dinnerSides[i]);
+    console.log(dinnerCarbs[i]);
     console.log("");
+}
