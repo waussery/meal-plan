@@ -1,7 +1,7 @@
 //List Food Choices
-const entrees = ['Salmon', 'Herb Chicken', 'Pork Chops'];
-const vegetables = ['Butter Thyme Peas', 'Salad', 'Brown Sugar Carrots', 'Roasted Mixed Vegetables'];
-const carbs = ['Mac and Cheese', 'Mashed Potatoes', 'Rice', 'Sweet Potatoes', 'Roasted Squash'];
+const entrees = ['Salmon', 'Herb Chicken', 'Pork Chops', 'Barbecue'];
+const vegetables = ['Butter Thyme Peas', 'Salad', 'Brown Sugar Carrots', 'Roasted Zucchini', 'Roasted Mixed Vegetables', 'Steamed Broccoli', 'Cooked Greens'];
+const carbs = ['Quinoa', 'Mac and Cheese', 'Mashed Potatoes', 'Rice', 'Sweet Potatoes', 'Roasted Squash', 'Rice Pilaf', 'Beans'];
 
 //Declare Meals
 const dinnerEntrees = [];
